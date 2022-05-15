@@ -1,0 +1,69 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.322105",
+   "Default View_TopLeft":"-1338,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 3 -x 600 -y 60 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 3 -x 600 -y 80 -defaultsOSRD
+preplace port IIC_0_0 -pg 1 -lvl 3 -x 600 -y 100 -defaultsOSRD
+preplace port port-id_vga_hsync_0 -pg 1 -lvl 3 -x 600 -y 850 -defaultsOSRD
+preplace port port-id_vga_vsync_0 -pg 1 -lvl 3 -x 600 -y 870 -defaultsOSRD
+preplace port port-id_pclk_0 -pg 1 -lvl 0 -x 0 -y 400 -defaultsOSRD
+preplace port port-id_vsync_0 -pg 1 -lvl 0 -x 0 -y 420 -defaultsOSRD
+preplace port port-id_href_0 -pg 1 -lvl 0 -x 0 -y 440 -defaultsOSRD
+preplace port port-id_config_finished_0 -pg 1 -lvl 3 -x 600 -y 630 -defaultsOSRD
+preplace port port-id_sioc_0 -pg 1 -lvl 3 -x 600 -y 650 -defaultsOSRD
+preplace port port-id_siod_0 -pg 1 -lvl 3 -x 600 -y 670 -defaultsOSRD
+preplace port port-id_reset_0 -pg 1 -lvl 3 -x 600 -y 690 -defaultsOSRD
+preplace port port-id_pwdn_0 -pg 1 -lvl 3 -x 600 -y 710 -defaultsOSRD
+preplace port port-id_xclk_0 -pg 1 -lvl 3 -x 600 -y 730 -defaultsOSRD
+preplace port port-id_resend_0 -pg 1 -lvl 0 -x 0 -y 690 -defaultsOSRD
+preplace port port-id_AC_MCLK -pg 1 -lvl 3 -x 600 -y 180 -defaultsOSRD
+preplace portBus vga_red_0 -pg 1 -lvl 3 -x 600 -y 790 -defaultsOSRD
+preplace portBus vga_green_0 -pg 1 -lvl 3 -x 600 -y 810 -defaultsOSRD
+preplace portBus vga_blue_0 -pg 1 -lvl 3 -x 600 -y 830 -defaultsOSRD
+preplace portBus d_0 -pg 1 -lvl 0 -x 0 -y 460 -defaultsOSRD
+preplace inst ov7670_capture_0 -pg 1 -lvl 1 -x 180 -y 430 -defaultsOSRD
+preplace inst ov7670_controller_0 -pg 1 -lvl 2 -x 470 -y 680 -defaultsOSRD
+preplace inst ov7670_vga_0 -pg 1 -lvl 1 -x 180 -y 840 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 180 -y 130 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 2 -x 470 -y 450 -defaultsOSRD
+preplace inst ground -pg 1 -lvl 1 -x 180 -y 300 -defaultsOSRD
+preplace netloc Net 1 2 1 NJ 670
+preplace netloc blk_mem_gen_0_doutb 1 0 2 20 530 NJ
+preplace netloc d_0_1 1 0 1 NJ 460
+preplace netloc ground_dout 1 1 1 330 140n
+preplace netloc href_0_1 1 0 1 NJ 440
+preplace netloc ov7670_capture_0_addr 1 1 1 330 390n
+preplace netloc ov7670_capture_0_dout 1 1 1 N 430
+preplace netloc ov7670_capture_0_we 1 1 1 N 450
+preplace netloc ov7670_controller_0_config_finished 1 2 1 NJ 630
+preplace netloc ov7670_controller_0_pwdn 1 2 1 NJ 710
+preplace netloc ov7670_controller_0_reset 1 2 1 NJ 690
+preplace netloc ov7670_controller_0_sioc 1 2 1 NJ 650
+preplace netloc ov7670_controller_0_xclk 1 2 1 NJ 730
+preplace netloc ov7670_vga_0_frame_addr 1 1 1 360 490n
+preplace netloc ov7670_vga_0_vga_blue 1 1 2 NJ 830 NJ
+preplace netloc ov7670_vga_0_vga_green 1 1 2 NJ 810 NJ
+preplace netloc ov7670_vga_0_vga_hsync 1 1 2 NJ 850 NJ
+preplace netloc ov7670_vga_0_vga_red 1 1 2 NJ 790 NJ
+preplace netloc ov7670_vga_0_vga_vsync 1 1 2 NJ 870 NJ
+preplace netloc pclk_0_1 1 0 2 20 520 350
+preplace netloc processing_system7_0_FCLK_CLK2 1 1 2 NJ 180 NJ
+preplace netloc resend_0_1 1 0 2 NJ 690 NJ
+preplace netloc vsync_0_1 1 0 1 NJ 420
+preplace netloc xlconcat_0_dout 1 0 2 30 670 340
+preplace netloc processing_system7_0_DDR 1 1 2 NJ 60 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 1 2 NJ 80 NJ
+preplace netloc processing_system7_0_IIC_0 1 1 2 NJ 100 NJ
+levelinfo -pg 1 0 180 470 600
+pagesize -pg 1 -db -bbox -sgen -110 0 770 950
+"
+}
+{
+   "da_board_cnt":"2",
+   "da_clkrst_cnt":"3",
+   "da_ps7_cnt":"1"
+}

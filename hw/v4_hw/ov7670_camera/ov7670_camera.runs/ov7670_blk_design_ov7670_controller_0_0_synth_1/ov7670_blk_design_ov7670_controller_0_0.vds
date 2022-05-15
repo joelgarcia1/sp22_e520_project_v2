@@ -1,0 +1,255 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed May 11 12:05:20 2022
+# Process ID: 19009
+# Current directory: /home/joelg/Github/ECE_520/e520_Project/project_hw/ov7670_camera/ov7670_camera.runs/ov7670_blk_design_ov7670_controller_0_0_synth_1
+# Command line: vivado -log ov7670_blk_design_ov7670_controller_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ov7670_blk_design_ov7670_controller_0_0.tcl
+# Log file: /home/joelg/Github/ECE_520/e520_Project/project_hw/ov7670_camera/ov7670_camera.runs/ov7670_blk_design_ov7670_controller_0_0_synth_1/ov7670_blk_design_ov7670_controller_0_0.vds
+# Journal file: /home/joelg/Github/ECE_520/e520_Project/project_hw/ov7670_camera/ov7670_camera.runs/ov7670_blk_design_ov7670_controller_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source ov7670_blk_design_ov7670_controller_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/joelg/Github/ECE_520/e520_Project/project_hw/VHDL_file/ip_repo_capture'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/joelg/Github/ECE_520/e520_Project/project_hw/VHDL_file/ip_repo_ov7670_controller'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/joelg/Github/ECE_520/e520_Project/project_hw/VHDL_file/ip_repo_ov7670_vga'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/joelg/Xilinx/Vivado/2021.1/data/ip'.
+Command: synth_design -top ov7670_blk_design_ov7670_controller_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 19228
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:17 . Memory (MB): peak = 2546.301 ; gain = 0.000 ; free physical = 433 ; free virtual = 6539
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ov7670_blk_design_ov7670_controller_0_0' [/home/joelg/Github/ECE_520/e520_Project/project_hw/ov7670_camera/ov7670_camera.gen/sources_1/bd/ov7670_blk_design/ip/ov7670_blk_design_ov7670_controller_0_0/synth/ov7670_blk_design_ov7670_controller_0_0.vhd:69]
+INFO: [Synth 8-3491] module 'ov7670_controller' declared at '/home/joelg/Github/ECE_520/e520_Project/project_hw/ov7670_camera/ov7670_camera.gen/sources_1/bd/ov7670_blk_design/ipshared/dd48/src/ov7670_controller.vhd:26' bound to instance 'U0' of component 'ov7670_controller' [/home/joelg/Github/ECE_520/e520_Project/project_hw/ov7670_camera/ov7670_camera.gen/sources_1/bd/ov7670_blk_design/ip/ov7670_blk_design_ov7670_controller_0_0/synth/ov7670_blk_design_ov7670_controller_0_0.vhd:97]
+INFO: [Synth 8-638] synthesizing module 'ov7670_controller' [/home/joelg/Github/ECE_520/e520_Project/project_hw/ov7670_camera/ov7670_camera.gen/sources_1/bd/ov7670_blk_design/ipshared/dd48/src/ov7670_controller.vhd:38]
+INFO: [Synth 8-3491] module 'i2c_sender' declared at '/home/joelg/Github/ECE_520/e520_Project/project_hw/ov7670_camera/ov7670_camera.gen/sources_1/bd/ov7670_blk_design/ipshared/dd48/src/i2c_sender.vhd:26' bound to instance 'Inst_i2c_sender' of component 'i2c_sender' [/home/joelg/Github/ECE_520/e520_Project/project_hw/ov7670_camera/ov7670_camera.gen/sources_1/bd/ov7670_blk_design/ipshared/dd48/src/ov7670_controller.vhd:73]
+INFO: [Synth 8-638] synthesizing module 'i2c_sender' [/home/joelg/Github/ECE_520/e520_Project/project_hw/ov7670_camera/ov7670_camera.gen/sources_1/bd/ov7670_blk_design/ipshared/dd48/src/i2c_sender.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'i2c_sender' (1#1) [/home/joelg/Github/ECE_520/e520_Project/project_hw/ov7670_camera/ov7670_camera.gen/sources_1/bd/ov7670_blk_design/ipshared/dd48/src/i2c_sender.vhd:39]
+INFO: [Synth 8-3491] module 'ov7670_registers' declared at '/home/joelg/Github/ECE_520/e520_Project/project_hw/ov7670_camera/ov7670_camera.gen/sources_1/bd/ov7670_blk_design/ipshared/dd48/src/ov7670_register.vhd:45' bound to instance 'Inst_ov7670_registers' of component 'ov7670_registers' [/home/joelg/Github/ECE_520/e520_Project/project_hw/ov7670_camera/ov7670_camera.gen/sources_1/bd/ov7670_blk_design/ipshared/dd48/src/ov7670_controller.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'ov7670_registers' [/home/joelg/Github/ECE_520/e520_Project/project_hw/ov7670_camera/ov7670_camera.gen/sources_1/bd/ov7670_blk_design/ipshared/dd48/src/ov7670_register.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'ov7670_registers' (2#1) [/home/joelg/Github/ECE_520/e520_Project/project_hw/ov7670_camera/ov7670_camera.gen/sources_1/bd/ov7670_blk_design/ipshared/dd48/src/ov7670_register.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'ov7670_controller' (3#1) [/home/joelg/Github/ECE_520/e520_Project/project_hw/ov7670_camera/ov7670_camera.gen/sources_1/bd/ov7670_blk_design/ipshared/dd48/src/ov7670_controller.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'ov7670_blk_design_ov7670_controller_0_0' (4#1) [/home/joelg/Github/ECE_520/e520_Project/project_hw/ov7670_camera/ov7670_camera.gen/sources_1/bd/ov7670_blk_design/ip/ov7670_blk_design_ov7670_controller_0_0/synth/ov7670_blk_design_ov7670_controller_0_0.vhd:69]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:22 . Memory (MB): peak = 2546.301 ; gain = 0.000 ; free physical = 896 ; free virtual = 5469
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:24 . Memory (MB): peak = 2546.301 ; gain = 0.000 ; free physical = 1516 ; free virtual = 6095
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:24 . Memory (MB): peak = 2546.301 ; gain = 0.000 ; free physical = 1516 ; free virtual = 6095
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2546.301 ; gain = 0.000 ; free physical = 1503 ; free virtual = 6082
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2578.227 ; gain = 0.000 ; free physical = 2950 ; free virtual = 7552
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2578.227 ; gain = 0.000 ; free physical = 2948 ; free virtual = 7550
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:39 . Memory (MB): peak = 2578.227 ; gain = 31.926 ; free physical = 2590 ; free virtual = 7218
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:39 . Memory (MB): peak = 2578.227 ; gain = 31.926 ; free physical = 2590 ; free virtual = 7218
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:39 . Memory (MB): peak = 2578.227 ; gain = 31.926 ; free physical = 2591 ; free virtual = 7219
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6040] Register address_reg_rep driving address of a ROM cannot be packed in BRAM/URAM because of presence of initial value.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:40 . Memory (MB): peak = 2578.227 ; gain = 31.926 ; free physical = 2624 ; free virtual = 7253
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    8 Bit       Adders := 4     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                1 Bit    Registers := 3     
++---ROMs : 
+	                    ROMs := 1     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 2     
+	   7 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 3     
+	   3 Input    1 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6040] Register U0/Inst_ov7670_registers/address_reg_rep_rep driving address of a ROM cannot be packed in BRAM/URAM because of presence of initial value.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:45 . Memory (MB): peak = 2578.227 ; gain = 31.926 ; free physical = 2481 ; free virtual = 7119
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++----------------------------------------+-----------------------------------+---------------+----------------+
+|Module Name                             | RTL Object                        | Depth x Width | Implemented As | 
++----------------------------------------+-----------------------------------+---------------+----------------+
+|ov7670_blk_design_ov7670_controller_0_0 | U0/Inst_ov7670_registers/sreg_reg | 256x16        | Block RAM      | 
++----------------------------------------+-----------------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:01:06 . Memory (MB): peak = 2578.227 ; gain = 31.926 ; free physical = 2131 ; free virtual = 6791
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:01:07 . Memory (MB): peak = 2578.227 ; gain = 31.926 ; free physical = 2130 ; free virtual = 6790
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance U0/Inst_ov7670_registers/sreg_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:01:07 . Memory (MB): peak = 2578.227 ; gain = 31.926 ; free physical = 2126 ; free virtual = 6786
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-5799] Converted tricell instance 'U0i_0' to logic
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:01:18 . Memory (MB): peak = 2578.227 ; gain = 31.926 ; free physical = 2006 ; free virtual = 6690
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:01:18 . Memory (MB): peak = 2578.227 ; gain = 31.926 ; free physical = 2005 ; free virtual = 6690
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:01:18 . Memory (MB): peak = 2578.227 ; gain = 31.926 ; free physical = 2005 ; free virtual = 6690
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:01:18 . Memory (MB): peak = 2578.227 ; gain = 31.926 ; free physical = 2005 ; free virtual = 6690
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:01:18 . Memory (MB): peak = 2578.227 ; gain = 31.926 ; free physical = 2005 ; free virtual = 6690
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:01:18 . Memory (MB): peak = 2578.227 ; gain = 31.926 ; free physical = 2005 ; free virtual = 6690
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |LUT1     |     3|
+|2     |LUT2     |    40|
+|3     |LUT3     |    22|
+|4     |LUT4     |     8|
+|5     |LUT5     |     4|
+|6     |LUT6     |    10|
+|7     |RAMB18E1 |     1|
+|8     |FDRE     |    51|
+|9     |FDSE     |    31|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:01:18 . Memory (MB): peak = 2578.227 ; gain = 31.926 ; free physical = 2005 ; free virtual = 6690
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:01:13 . Memory (MB): peak = 2578.227 ; gain = 0.000 ; free physical = 2060 ; free virtual = 6744
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:01:18 . Memory (MB): peak = 2578.234 ; gain = 31.926 ; free physical = 2060 ; free virtual = 6744
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2578.234 ; gain = 0.000 ; free physical = 2060 ; free virtual = 6795
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2578.234 ; gain = 0.000 ; free physical = 2324 ; free virtual = 7107
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: b16e5f44
+INFO: [Common 17-83] Releasing license: Synthesis
+31 Infos, 2 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:49 ; elapsed = 00:01:34 . Memory (MB): peak = 2578.234 ; gain = 32.023 ; free physical = 2484 ; free virtual = 7266
+INFO: [Common 17-1381] The checkpoint '/home/joelg/Github/ECE_520/e520_Project/project_hw/ov7670_camera/ov7670_camera.runs/ov7670_blk_design_ov7670_controller_0_0_synth_1/ov7670_blk_design_ov7670_controller_0_0.dcp' has been generated.
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/joelg/Github/ECE_520/e520_Project/project_hw/ov7670_camera/ov7670_camera.runs/ov7670_blk_design_ov7670_controller_0_0_synth_1/ov7670_blk_design_ov7670_controller_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ov7670_blk_design_ov7670_controller_0_0_utilization_synth.rpt -pb ov7670_blk_design_ov7670_controller_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed May 11 12:07:33 2022...

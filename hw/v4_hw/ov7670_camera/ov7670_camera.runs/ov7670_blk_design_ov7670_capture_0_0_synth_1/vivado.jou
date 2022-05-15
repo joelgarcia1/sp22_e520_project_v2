@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Wed May 11 12:07:42 2022
+# Process ID: 19990
+# Current directory: /home/joelg/Github/ECE_520/e520_Project/project_hw/ov7670_camera/ov7670_camera.runs/ov7670_blk_design_ov7670_capture_0_0_synth_1
+# Command line: vivado -log ov7670_blk_design_ov7670_capture_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ov7670_blk_design_ov7670_capture_0_0.tcl
+# Log file: /home/joelg/Github/ECE_520/e520_Project/project_hw/ov7670_camera/ov7670_camera.runs/ov7670_blk_design_ov7670_capture_0_0_synth_1/ov7670_blk_design_ov7670_capture_0_0.vds
+# Journal file: /home/joelg/Github/ECE_520/e520_Project/project_hw/ov7670_camera/ov7670_camera.runs/ov7670_blk_design_ov7670_capture_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source ov7670_blk_design_ov7670_capture_0_0.tcl -notrace
