@@ -1,0 +1,10 @@
+18:10:47 **** Build of configuration Debug for project Zybo-Z7-20-HDMI_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 53562 C:/Github_JG_ECE520/e520_Project/hdmi_sw/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm domain_ps7_cortexa9_0 C:/Github_JG_ECE520/e520_Project/hdmi_sw/Zybo-Z7-20-HDMI_system/Debug/system.bif
+sdcard_gen --xpfm C:/Github_JG_ECE520/e520_Project/hdmi_sw/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm --sys_config design_1_wrapper --bif C:/Github_JG_ECE520/e520_Project/hdmi_sw/Zybo-Z7-20-HDMI_system/Debug/system.bif --bitstream C:/Github_JG_ECE520/e520_Project/hdmi_sw/Zybo-Z7-20-HDMI/_ide/bitstream/design_1_wrapper.bit --elf C:/Github_JG_ECE520/e520_Project/hdmi_sw/Zybo-Z7-20-HDMI/Debug/Zybo-Z7-20-HDMI.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Github_JG_ECE520/e520_Project/hdmi_sw/Zybo-Z7-20-HDMI/_ide/bitstream/design_1_wrapper.bit
+Running E:/Vitis21.1/Vitis/2021.1/bin/bootgen  -image C:/Github_JG_ECE520/e520_Project/hdmi_sw/Zybo-Z7-20-HDMI_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+18:10:55 Build Finished (took 7s.221ms)
+
